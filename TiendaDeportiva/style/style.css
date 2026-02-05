@@ -32,8 +32,8 @@
 }
 
 .carousel-container {
-    width: 600px;      /* tamaño del marco */
-    margin: auto;         /* centra */
+    max-width: 600px;      
+    margin: auto;         
     padding: 15px;
     background: white;
     border-radius: 20px;
