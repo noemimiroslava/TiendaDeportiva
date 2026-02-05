@@ -1,8 +1,12 @@
- /* <!-- logo nombre y barra -->
+ /* <!-- logo nombre y barra --> */
+.navbar {
+    background-color: #008000;
+}
 
-
-
- <!-- carrusel con 3 playeras y balon -->
+.navbar-brand{
+    color: #ffffff;
+}
+ /* <!-- carrusel con 3 playeras y balon -->
 
 
 
