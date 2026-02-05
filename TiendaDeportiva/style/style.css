@@ -1,3 +1,17 @@
+ /* <!-- logo nombre y barra --> */
+.navbar {
+    background-color: #008000;
+}
+
+.navbar-brand{
+    color: #ffffff;
+}
+ /* <!-- carrusel con 3 playeras y balon -->
+
+
+
+ <!-- foto de reloj de lado izquierdo -->
+ /* <!-- logo nombre y barra -->
 /*<!-- logo nombre y barra -->*/
 
 
@@ -15,11 +29,42 @@
 
 
 
+ /* <!-- carrusel con 3 playeras y balon --> */
+
+.carousel-img {
+    height: 400px;      
+    object-fit: contain;
+} 
+
+.carousel-indicators button {
+    width: 30px;
+    height: 4px;
+}
+
+.carousel-caption {
+    color: white;
+}
+
+.carousel-container {
+    max-width: 600px;      
+    margin: auto;         
+    padding: 15px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+} 
+
+/* <!-- foto de reloj de lado izquierdo -->*/
+
+
+
+/* <!-- los tres layout de las playeras -->*/
  /*<!-- los tres layout de las playeras -->*/
 
 
 
 
+ /*<!-- carusel de refencias -->
  /*<!-- carusel de refencias -->*/
 
 
