@@ -1,0 +1,23 @@
+ //logo nombre y barra
+
+ 
+
+  //carrusel con 3 playeras y balon 
+
+
+
+  //foto de reloj de lado izquierdo
+
+
+
+ //los tres layout de las playeras 
+
+
+
+
+  //carusel de refencias 
+
+ 
+
+  //contacto y pie de pagina -->
+
