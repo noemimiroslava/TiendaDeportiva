@@ -1,24 +1,28 @@
- /* <!-- logo nombre y barra -->
+/*<!-- logo nombre y barra -->*/
 
 
 
- <!-- carrusel con 3 playeras y balon -->
+ /*<!-- carrusel con 3 playeras y balon -->*/
+   @media (min-width: 992px) {
+    .justify-text {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  }
+
+
+ /*<!-- foto de reloj de lado izquierdo -->*/
 
 
 
- <!-- foto de reloj de lado izquierdo -->
-
-
-
- <!-- los tres layout de las playeras -->
+ /*<!-- los tres layout de las playeras -->*/
 
 
 
 
- <!-- carusel de refencias -->
+ /*<!-- carusel de refencias -->*/
 
 
  
 
- <!-- contacto y pie de pagina -->
- */
+ /*<!-- contacto y pie de pagina -->*/
