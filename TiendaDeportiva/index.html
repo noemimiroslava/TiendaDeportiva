@@ -308,6 +308,10 @@
  
 
  <!-- contacto y pie de pagina -->
+  <div class="alert alert-danger" id="feedbackAlert" style="display:none;">
+    Escribe un correo válido, por favor.
+  </div>
+  
   <footer class="footer">
 
     <div class = "container-fluid">
@@ -318,10 +322,10 @@
           Directamente en tu bandeja de entrada.
         </p>
 
-        <form>
+        <form id = "form" novalidate>
           <div class="form-container">
-            <input type="email" placeholder="Su correo electrónico" required>
-            <button type="submit">SUSCRIBIRSE</button>
+            <input type="email" id="correoIpt" placeholder="Su correo electrónico">
+            <button type="submit" id="formBtn">SUSCRIBIRSE</button>
           </div>
         </form>
       </div>
@@ -359,6 +363,7 @@
     </div>               
 
   </footer>
+
     
     <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
