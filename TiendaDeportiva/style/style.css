@@ -27,7 +27,12 @@
 
  /*<!-- foto de reloj de lado izquierdo -->*/
 
-
+#pelota{
+  width:120px;
+  display:block;
+  margin:auto;
+  transform:scale(0.1);
+}
 
  /* <!-- carrusel con 3 playeras y balon --> */
 
@@ -55,12 +60,46 @@
 } 
 
 /* <!-- foto de reloj de lado izquierdo -->*/
+.card-img{
+  max-height: 200px;
+  object-fit: contain;
+}
+.product-card {
+  height: 100%;
+  border: 2px solid #0f7a3d; /* verde */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.15);
+  transition: all .3s ease;
+}
 
-
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.25);
+}
 
 /* <!-- los tres layout de las playeras -->*/
  /*<!-- los tres layout de las playeras -->*/
 
+ .titulo h2{
+    text-align: center;
+    font-size: 40px;
+    
+ }
+
+  .titulo p{
+    text-align: center;
+    font-size: 30px;
+    
+ }
+
+ .product-info {
+  text-align: center;
+}
+
+ .product-img {
+  max-height: 400px;
+  object-fit: contain;
+}
 
 
 
