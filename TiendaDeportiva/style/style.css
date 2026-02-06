@@ -80,15 +80,22 @@
 /* <!-- los tres layout de las playeras -->*/
  /*<!-- los tres layout de las playeras -->*/
 
+.titulo {
+  background: #008000;
+  text-align: center;
+}
+
  .titulo h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
+    color: white;
     
  }
 
-  .titulo p{
+.titulo p{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    color: white;
     
  }
 
