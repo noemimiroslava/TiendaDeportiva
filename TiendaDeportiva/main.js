@@ -10,7 +10,7 @@
 
 const pelota = document.getElementById("pelota");
 
-let escala = 0.1;
+let escala = 0.08;
 
 function animar(){
 
