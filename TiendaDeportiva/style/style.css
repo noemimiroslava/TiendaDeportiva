@@ -127,9 +127,8 @@ div.linea {
     display: flex;
     background-color: white;
     color: #008000;
-    display: flex;
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
     margin-bottom: 0;
 }
 
@@ -140,6 +139,11 @@ div.linea {
     border: none;
     cursor: pointer;
     border-radius: 6px;
+}
+
+input::placeholder {
+    color: #aaa;
+    font-style: italic;
 }
 
 .redes svg {
